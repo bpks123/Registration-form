@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+.card{
+       
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(185, 157, 157);
+    height: 270px;
+    width: 100%;
+    padding: 50px;
+    border: 1px solid black;
+}
+form label{
+    font-size: 20px;
+    margin-right: 20px;
+}
+input{
+    width: 70%;
+    height: 35px;
+    font-size: 20px;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.text-center button{
+    background-color: beige;
+    border-radius: 5px;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+}
