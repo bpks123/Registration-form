@@ -3,18 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Login</title>
     <link rel="stylesheet" href="registration.css">
 </head>
 <body>
     <div class="container">
         <div class="card">
-            <h1>Registration Form</h1>
+            <h1>Login Form</h1>
             <form action="#">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name">
-                </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" placeholder="Enter Email">
@@ -24,14 +20,12 @@
                     <input type="password" name="password" id="password" placeholder="Enter password">
                 </div>
                 <div class="text-center">
-                    <button type="button" onclick="saveData()">Submit</button>
-                    <button type="reset">Reset</button>
+                    <button type="button" onclick="loginData()">Submit</button>
                 </div>
             </form>
-            <div>Already have a account <a href="login.html">Login</a></div>
+            <div>Don't have account <a href="registration.html">Sign Up</a></div>
         </div>
     </div>
     <script src="registration.js"></script>
-    
 </body>
 </html>
